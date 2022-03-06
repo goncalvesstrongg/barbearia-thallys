@@ -1,6 +1,7 @@
 :root{
     --persian-red: #ce3232;
-    --dark: #0a0101fd;
+    --dark: #a08800f6;
+    --preto: #0a0a0a;
     --grey: #686464d0;
     --lightGrey: #f9f9f9ea;
     --transition: all 0.5s ease;
@@ -56,7 +57,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 5rem 0;
 }
 .para-text{
-    color: var(--dark);
+    color: var(--preto);
     line-height: 1.7;
     font-size: 0.95rem;
     opacity: 0.8;
@@ -71,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 100%;
     padding-left: 5vw;
     padding-right: 5vw;
-    background: rgba(94, 59, 59, 0.986);
+    background: var(--preto);
 }
 .navbar-nav{
     padding-left: 0;
@@ -136,7 +137,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/header-banner-1.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/barbearia.jpg) center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -190,6 +191,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .chef-item-img{
     position: relative;
+    
     overflow: hidden;
     cursor: pointer;
 }
@@ -216,7 +218,7 @@ h1, h2, h3, h4, h5, h6, p{
 .chef-overlay p{
     font-weight: 700;
     font-size: 1.2rem;
-    width: 70%;
+    width: 50%;
     text-align: center;
     line-height: 1.7;
 }
@@ -310,7 +312,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* testimonial */
 .testimonial{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/testemunho.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tesoura.jpg) center/cover no-repeat fixed;
     overflow: hidden;
 }
 .testimonial .title{
@@ -334,7 +336,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 1.2rem;
     line-height: 1.7;
     width: 80%;
-    margin: 1.5rem auto 1rem;
+    margin: 1rem auto 1rem;
     color: var(--lightGrey);
     opacity: 0.9;
 }
@@ -385,7 +387,7 @@ h1, h2, h3, h4, h5, h6, p{
     opacity: 0.6;
 }
 .footer-item:nth-child(3){
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/footer-img.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/horario.jpg) center/cover no-repeat;
     color: #fff;
     padding: 2rem;
     border-radius: 1.3rem;
@@ -496,7 +498,7 @@ h1, h2, h3, h4, h5, h6, p{
     /*** navbar background change ***/
     .bg-navbar{
         width: 100%;
-        background: #594736;
+        background: #070402;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         -webkit-box-shadow: 0px 0px 25px 0px rgba(172, 166, 166, 0.75);
